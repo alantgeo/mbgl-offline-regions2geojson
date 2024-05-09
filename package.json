@@ -1,0 +1,12 @@
+{
+  "name": "mbgl-offline-regions2geojson",
+  "description": "Extract regions from within a MBGL Offline Pack into a GeoJSON FeatureCollection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@turf/bbox-polygon": "^6.5.0",
+    "@turf/helpers": "^6.5.0",
+    "lodash.omit": "^4.5.0"
+  }
+}
